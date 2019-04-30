@@ -8,7 +8,7 @@ import warnings
 warnings.simplefilter("ignore")
 
 # Load the train DataFrames using pandas
-dataset = pd.read_csv('C:/Users/laksh/PycharmProjects/DeepLearning_Lesson1/Breas Cancer.csv')
+dataset = pd.read_csv('Breast_Cancer.csv')
 
 
 

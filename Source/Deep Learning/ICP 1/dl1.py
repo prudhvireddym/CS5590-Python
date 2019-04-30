@@ -1,13 +1,12 @@
 import pandas
-# import tensorflow as tf
+import tensorflow as tf
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation
 
 # load dataset
-from nltk import pr
 from sklearn.model_selection import train_test_split
 import pandas as pd
-dataset = pd.read_csv("C:/Users/laksh/PycharmProjects/DeepLearning_Lesson1/diabetes.csv", header=None).values
+dataset = pd.read_csv("diabetes.csv", header=None).values
 # print(dataset)
 import numpy as np
 X_train, X_test, Y_train, Y_test = train_test_split(dataset[:,0:8], dataset[:,8],
